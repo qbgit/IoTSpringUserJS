@@ -10,7 +10,7 @@ Build Restful CRUD API for a simple application using Spring Boot, Mysql, JPA an
 
 ```bash
 mvn package
-java -jar target/easy-notes-1.0.0.jar
+java -jar target/IoTServer-1.0.0.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
