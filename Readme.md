@@ -1,25 +1,8 @@
-# Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
+# Spring Boot, MySQL, JPA, Hibernate Rest API 和使用javascript 来读入外部IOT协议
 
-Build Restful CRUD API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful CRUD API for a simple application using Spring Boot, Mysql, JPA and Hibernate.
 
-## Requirements
-
-1. Java - 1.8.x
-
-2. Maven - 3.x.x
-
-3. Mysql - 5.x.x
-
-## Steps to Setup
-
-**1. Clone the application**
-
-
-**3. Change mysql username and password as per your installation**
-
-+ open `src/main/resources/application.properties`
-
-+ change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
+协议放在外部的js函数中，根据协议解析，并且建表。建表还没有做，这点没有node js 来得方便
 
 **4. Build and run the app using maven**
 
