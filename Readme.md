@@ -2,7 +2,9 @@
 
 Build Restful CRUD API for a simple application using Spring Boot, Mysql, JPA and Hibernate.
 
-协议放在外部的js函数中，根据协议解析，并且建表。建表还没有做，这点没有node js 来得方便
+协议放在外部的js函数中，根据协议解析，并且建表，目的是动态建表，而不是hibernate 的自动建表。
+建表还没有做，这点没有node js 来得方便，nodejs的方便之处在于json对象可以直接当成对象使用。
+
 
 **4. Build and run the app using maven**
 
